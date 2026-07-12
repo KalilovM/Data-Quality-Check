@@ -1,0 +1,70 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dashboard preview</title>
+  <desc id="desc">A mock dashboard view with KPI cards, method performance, severity mix, anomaly recall, and detected anomaly table.</desc>
+  <rect width="1200" height="620" rx="28" fill="#F8FAFC"/>
+  <rect x="30" y="30" width="1140" height="560" rx="22" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="64" y="84" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Dashboard Preview</text>
+  <text x="64" y="116" fill="#475569" font-family="Segoe UI, Arial, sans-serif" font-size="17">KPI quality checks, anomaly detection results, and severity review queue.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="152" width="250" height="96" rx="16" fill="#ECFEFF" stroke="#67E8F9"/>
+    <text x="88" y="188" fill="#155E75" font-size="16" font-weight="700">Records processed</text>
+    <text x="88" y="225" fill="#0F172A" font-size="32" font-weight="800">5,400</text>
+
+    <rect x="342" y="152" width="250" height="96" rx="16" fill="#F0FDF4" stroke="#86EFAC"/>
+    <text x="366" y="188" fill="#166534" font-size="16" font-weight="700">Combined recall</text>
+    <text x="366" y="225" fill="#0F172A" font-size="32" font-weight="800">97.33%</text>
+
+    <rect x="620" y="152" width="250" height="96" rx="16" fill="#FEF3C7" stroke="#FCD34D"/>
+    <text x="644" y="188" fill="#92400E" font-size="16" font-weight="700">F1 score</text>
+    <text x="644" y="225" fill="#0F172A" font-size="32" font-weight="800">82.79%</text>
+
+    <rect x="898" y="152" width="206" height="96" rx="16" fill="#FEE2E2" stroke="#FCA5A5"/>
+    <text x="922" y="188" fill="#991B1B" font-size="16" font-weight="700">High severity</text>
+    <text x="922" y="225" fill="#0F172A" font-size="32" font-weight="800">312</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="282" width="500" height="250" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="92" y="322" fill="#0F172A" font-size="20" font-weight="700">Method performance</text>
+    <line x1="116" y1="480" x2="520" y2="480" stroke="#94A3B8"/>
+    <rect x="130" y="350" width="52" height="130" rx="6" fill="#38BDF8"/>
+    <rect x="200" y="360" width="52" height="120" rx="6" fill="#22C55E"/>
+    <rect x="270" y="398" width="52" height="82" rx="6" fill="#F59E0B"/>
+    <rect x="340" y="322" width="52" height="158" rx="6" fill="#EF4444"/>
+    <text x="126" y="508" fill="#475569" font-size="13">Valid</text>
+    <text x="194" y="508" fill="#475569" font-size="13">Rules</text>
+    <text x="267" y="508" fill="#475569" font-size="13">IForest</text>
+    <text x="334" y="508" fill="#475569" font-size="13">Combo</text>
+    <text x="430" y="372" fill="#475569" font-size="14">Precision</text>
+    <circle cx="414" cy="367" r="6" fill="#22C55E"/>
+    <text x="430" y="402" fill="#475569" font-size="14">Recall</text>
+    <circle cx="414" cy="397" r="6" fill="#EF4444"/>
+
+    <rect x="600" y="282" width="504" height="250" rx="18" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="628" y="322" fill="#0F172A" font-size="20" font-weight="700">Detected anomaly queue</text>
+    <rect x="628" y="350" width="448" height="38" rx="8" fill="#E2E8F0"/>
+    <text x="646" y="374" fill="#334155" font-size="14" font-weight="700">Date</text>
+    <text x="742" y="374" fill="#334155" font-size="14" font-weight="700">Store</text>
+    <text x="838" y="374" fill="#334155" font-size="14" font-weight="700">Issue</text>
+    <text x="1000" y="374" fill="#334155" font-size="14" font-weight="700">Severity</text>
+
+    <text x="646" y="418" fill="#475569" font-size="14">2026-07-13</text>
+    <text x="742" y="418" fill="#475569" font-size="14">S004</text>
+    <text x="838" y="418" fill="#475569" font-size="14">Revenue drop</text>
+    <rect x="1000" y="398" width="64" height="28" rx="14" fill="#FEE2E2"/>
+    <text x="1014" y="417" fill="#991B1B" font-size="13" font-weight="700">High</text>
+
+    <text x="646" y="458" fill="#475569" font-size="14">2026-07-13</text>
+    <text x="742" y="458" fill="#475569" font-size="14">S009</text>
+    <text x="838" y="458" fill="#475569" font-size="14">Invalid discount</text>
+    <rect x="1000" y="438" width="64" height="28" rx="14" fill="#FEF3C7"/>
+    <text x="1009" y="457" fill="#92400E" font-size="13" font-weight="700">Medium</text>
+
+    <text x="646" y="498" fill="#475569" font-size="14">2026-07-13</text>
+    <text x="742" y="498" fill="#475569" font-size="14">S011</text>
+    <text x="838" y="498" fill="#475569" font-size="14">Payment drop</text>
+    <rect x="1000" y="478" width="64" height="28" rx="14" fill="#FEE2E2"/>
+    <text x="1014" y="497" fill="#991B1B" font-size="13" font-weight="700">High</text>
+  </g>
+</svg>
