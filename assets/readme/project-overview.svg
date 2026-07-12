@@ -1,0 +1,60 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Data Quality Impact Monitor project overview</title>
+  <desc id="desc">A visual pipeline from synthetic KPI data through validation, feature engineering, anomaly detection, severity classification, API and dashboard outputs.</desc>
+  <rect width="1200" height="430" rx="28" fill="#0B1220"/>
+  <rect x="28" y="28" width="1144" height="374" rx="22" fill="#111827" stroke="#2DD4BF" stroke-width="2"/>
+  <text x="64" y="82" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">Data Quality Impact Monitor</text>
+  <text x="64" y="118" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">Automated KPI validation, anomaly detection, severity scoring, and dashboard-ready outputs.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="178" width="142" height="92" rx="16" fill="#172554" stroke="#60A5FA"/>
+    <text x="92" y="214" fill="#DBEAFE" font-size="17" font-weight="700">Synthetic</text>
+    <text x="91" y="238" fill="#BFDBFE" font-size="15">sales KPIs</text>
+
+    <path d="M218 224H270" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M260 214L272 224L260 234" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="284" y="178" width="142" height="92" rx="16" fill="#14532D" stroke="#4ADE80"/>
+    <text x="316" y="214" fill="#DCFCE7" font-size="17" font-weight="700">Validate</text>
+    <text x="309" y="238" fill="#BBF7D0" font-size="15">quality rules</text>
+
+    <path d="M438 224H490" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M480 214L492 224L480 234" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="504" y="178" width="142" height="92" rx="16" fill="#3B0764" stroke="#C084FC"/>
+    <text x="535" y="214" fill="#F3E8FF" font-size="17" font-weight="700">Features</text>
+    <text x="526" y="238" fill="#E9D5FF" font-size="15">KPI signals</text>
+
+    <path d="M658 224H710" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M700 214L712 224L700 234" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="724" y="178" width="164" height="92" rx="16" fill="#713F12" stroke="#FBBF24"/>
+    <text x="753" y="214" fill="#FEF3C7" font-size="17" font-weight="700">Detect</text>
+    <text x="750" y="238" fill="#FDE68A" font-size="15">rules plus ML</text>
+
+    <path d="M900 224H952" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M942 214L954 224L942 234" stroke="#94A3B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="966" y="178" width="142" height="92" rx="16" fill="#7F1D1D" stroke="#F87171"/>
+    <text x="997" y="214" fill="#FEE2E2" font-size="17" font-weight="700">Severity</text>
+    <text x="996" y="238" fill="#FECACA" font-size="15">prioritized</text>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="318" width="245" height="46" rx="12" fill="#1F2937" stroke="#334155"/>
+    <circle cx="91" cy="341" r="9" fill="#2DD4BF"/>
+    <text x="112" y="347" fill="#E5E7EB" font-size="15">FastAPI endpoint</text>
+
+    <rect x="345" y="318" width="245" height="46" rx="12" fill="#1F2937" stroke="#334155"/>
+    <circle cx="372" cy="341" r="9" fill="#60A5FA"/>
+    <text x="393" y="347" fill="#E5E7EB" font-size="15">Streamlit dashboard</text>
+
+    <rect x="626" y="318" width="245" height="46" rx="12" fill="#1F2937" stroke="#334155"/>
+    <circle cx="653" cy="341" r="9" fill="#FBBF24"/>
+    <text x="674" y="347" fill="#E5E7EB" font-size="15">CSV and JSON outputs</text>
+
+    <rect x="907" y="318" width="201" height="46" rx="12" fill="#1F2937" stroke="#334155"/>
+    <circle cx="934" cy="341" r="9" fill="#F87171"/>
+    <text x="955" y="347" fill="#E5E7EB" font-size="15">PostgreSQL path</text>
+  </g>
+</svg>
