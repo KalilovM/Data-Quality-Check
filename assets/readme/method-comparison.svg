@@ -1,0 +1,53 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anomaly detection method comparison</title>
+  <desc id="desc">Precision, recall, and F1 comparison for validation, statistical rules, Isolation Forest, and combined detection.</desc>
+  <rect width="1200" height="520" rx="28" fill="#0F172A"/>
+  <text x="64" y="76" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Method Comparison</text>
+  <text x="64" y="110" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="17">Sample benchmark from 5,400 synthetic KPI records with injected anomalies.</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <line x1="128" y1="406" x2="1090" y2="406" stroke="#475569"/>
+    <line x1="128" y1="166" x2="128" y2="406" stroke="#475569"/>
+    <text x="88" y="411" fill="#94A3B8" font-size="13">0.0</text>
+    <text x="88" y="291" fill="#94A3B8" font-size="13">0.5</text>
+    <text x="88" y="171" fill="#94A3B8" font-size="13">1.0</text>
+    <line x1="128" y1="286" x2="1090" y2="286" stroke="#1E293B" stroke-dasharray="5 8"/>
+    <line x1="128" y1="166" x2="1090" y2="166" stroke="#1E293B" stroke-dasharray="5 8"/>
+
+    <g>
+      <text x="188" y="440" fill="#CBD5E1" font-size="15" text-anchor="middle">Validation</text>
+      <rect x="148" y="166" width="24" height="240" rx="5" fill="#38BDF8"/>
+      <rect x="180" y="280" width="24" height="126" rx="5" fill="#22C55E"/>
+      <rect x="212" y="241" width="24" height="165" rx="5" fill="#F59E0B"/>
+    </g>
+
+    <g>
+      <text x="405" y="440" fill="#CBD5E1" font-size="15" text-anchor="middle">Statistical rules</text>
+      <rect x="365" y="189" width="24" height="217" rx="5" fill="#38BDF8"/>
+      <rect x="397" y="278" width="24" height="128" rx="5" fill="#22C55E"/>
+      <rect x="429" y="245" width="24" height="161" rx="5" fill="#F59E0B"/>
+    </g>
+
+    <g>
+      <text x="638" y="440" fill="#CBD5E1" font-size="15" text-anchor="middle">Isolation Forest</text>
+      <rect x="598" y="260" width="24" height="146" rx="5" fill="#38BDF8"/>
+      <rect x="630" y="276" width="24" height="130" rx="5" fill="#22C55E"/>
+      <rect x="662" y="269" width="24" height="137" rx="5" fill="#F59E0B"/>
+    </g>
+
+    <g>
+      <text x="866" y="440" fill="#CBD5E1" font-size="15" text-anchor="middle">Combined</text>
+      <rect x="826" y="233" width="24" height="173" rx="5" fill="#38BDF8"/>
+      <rect x="858" y="172" width="24" height="234" rx="5" fill="#22C55E"/>
+      <rect x="890" y="207" width="24" height="199" rx="5" fill="#F59E0B"/>
+    </g>
+
+    <rect x="938" y="157" width="190" height="112" rx="14" fill="#111827" stroke="#334155"/>
+    <circle cx="964" cy="188" r="7" fill="#38BDF8"/>
+    <text x="982" y="193" fill="#E5E7EB" font-size="14">Precision</text>
+    <circle cx="964" cy="220" r="7" fill="#22C55E"/>
+    <text x="982" y="225" fill="#E5E7EB" font-size="14">Recall</text>
+    <circle cx="964" cy="252" r="7" fill="#F59E0B"/>
+    <text x="982" y="257" fill="#E5E7EB" font-size="14">F1 score</text>
+  </g>
+</svg>
